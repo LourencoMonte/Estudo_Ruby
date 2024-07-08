@@ -1,0 +1,37 @@
+# Ignorar arquivos e diretórios fora do escopo do projeto
+../../.bash_history
+../../.config/
+../../.gitconfig
+../../.lesshst
+../../.vscode/
+../../.wakatime.bdb
+../../.wakatime.cfg
+../../.wakatime/
+../../3D Objects/
+../../AppData/
+../../Cmder/
+../../Contacts/
+../../Desktop/
+../../Documents/
+../../Downloads/
+../../Favorites/
+../../Links/
+../../Music/
+../../NTUSER.DAT
+../../NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+../../NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+../../NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+../../OneDrive/
+../../Pictures/
+../../Saved Games/
+../../Searches/
+../../Videos/
+../../micro-2.0.13/
+../../ntuser.dat.LOG1
+../../ntuser.dat.LOG2
+../../ntuser.ini
+../../pseint/
+../Ruby/
+../arq.txt
+../projeto-1/
+../projeto-2/
