@@ -1,0 +1,14 @@
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    os (1.1.4)
+
+PLATFORMS
+  ruby
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  os
+
+BUNDLED WITH
+   2.5.17
