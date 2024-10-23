@@ -6,10 +6,10 @@ end
 
 #Solicitação de dados
 puts ("Digite sua altura.")
-altura = gets.chomp.to_f
+altura = gets.chomp.gsub(',', '.').to_f
 
 puts ("Digite sua massa corporal(Peso).")
-massa = gets.chomp.to_f
+massa = gets.chomp.gsub(',', '.').to_f
 
 #chamada de método
 valor_imc = imc(altura, massa)
