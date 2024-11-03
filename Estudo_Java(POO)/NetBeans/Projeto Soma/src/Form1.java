@@ -39,6 +39,7 @@ public class Form1 extends javax.swing.JFrame {
         btnlimpar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Projeto Soma");
 
         lblvalor02.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
         lblvalor02.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -71,6 +72,8 @@ public class Form1 extends javax.swing.JFrame {
                 txtfvalor02ActionPerformed(evt);
             }
         });
+
+        txtfresultado.setEditable(false);
 
         btncalcular.setText("Calcular");
         btncalcular.addActionListener(new java.awt.event.ActionListener() {
@@ -161,10 +164,17 @@ public class Form1 extends javax.swing.JFrame {
         v2 = Double.parseDouble(txtfvalor02.getText());
         
         resultado = v1 + v2;
+        
+        txtfresultado.setText(String.valueOf(resultado));
     }//GEN-LAST:event_btncalcularActionPerformed
 
     private void btnlimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnlimparActionPerformed
-        // TODO add your handling code here:
+        // Botão limpar
+        txtfvalor01.setText(null);
+        txtfvalor02.setText(null);
+        txtfresultado.setText(null);
+        
+        txtfvalor01.requestFocus();
     }//GEN-LAST:event_btnlimparActionPerformed
 
     /**
