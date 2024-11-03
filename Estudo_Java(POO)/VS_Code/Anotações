@@ -1,0 +1,24 @@
+        VARIÁVEIS
+        tipo nome;
+-string: texto 
+    -getText(); captura texto
+-int: números inteiros    
+-double: ponto flutuante, casas decimais
+        null: representa ausência de valor
+    ex: double v1, v2, resultado;
+-parseDouble: para converter de string para double
+    ex: v1 = Double.parseDouble(txtfvalor01.getText());
+
+        OPERADORES
++ soma, - subtração, * multiplicação, / divisão, % resto da divisão.
+    ex: resultado = v1 + v2
+
+        SAÍDA DE DADOS
+-setText: imprime saída em formato de string
+    ex: setText("Lourenço");
+para mostra resultado de outro tipo de dado exige conversão
+-(String.valueOf(variável));: converte variável para string 
+        também pode converter para Integer ou Double 
+    ex: txtfresultado.setText(String.valueOf(resultado));
+-requestFocus: tras o foco da entrada de dados "traço piscando".
+        ex: txtfvalor01.requestFocus();
