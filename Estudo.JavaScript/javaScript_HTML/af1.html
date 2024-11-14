@@ -3,10 +3,7 @@
     <script>
       //Declaração de variáveis
       let quantidadeAlunos, nota;
-      let notasAV1 = [];
-      let notasAV2 = [];
-      let somaMedia = [];
-      let media = [];
+      let notasAV1 = [], notasAV2 = [], somaMedia = [], media = [];
       var notaMaxima = Number.NEGATIVE_INFINITY;
       var notaMinima = Number.POSITIVE_INFINITY;
       
@@ -35,9 +32,9 @@
        document.write ("A menor nota da AV1 foi: " + notaMinima)
        document.write ("<br>")
 
-       //Zerando variáveis para cálculo da AV2
-       var notaMaxima = Number.NEGATIVE_INFINITY;
-       var notaMinima = Number.POSITIVE_INFINITY;
+        //Zerando variáveis para cálculo da AV2
+        var notaMaxima = Number.NEGATIVE_INFINITY;
+        var notaMinima = Number.POSITIVE_INFINITY;
 
 
       //notasAV2
@@ -62,8 +59,12 @@
         document.write ("A menor nota da AV2 foi: " + notaMinima)
         document.write ("<br>")
      
+          //Zerando variáveis para cálculo da média
+          var notaMaxima = Number.NEGATIVE_INFINITY;
+          var notaMinima = Number.POSITIVE_INFINITY;
 
-      //Cálculo das Médias
+      
+        //Cálculo das Médias
       for (var i = 0; i < quantidadeAlunos; i++) {
         nota = notasAV1[i] + notasAV2[i];
         somaMedia.push(nota);
@@ -72,11 +73,26 @@
       for (var i = 0; i < quantidadeAlunos; i++ ){
         nota = somaMedia[i] / 2;
         media.push(nota);
+
+        //Maior média
+        if (nota > notaMaxima) {
+          notaMaxima = nota;}
+        //Menor média
+        if (nota < notaMinima) {
+          notaMinima = nota;}
       }  
 
-        //Exibição das médias
-        document.write ("<br>")
-        document.write ("Notas médias: " + media)
+      //Exibição das médias
+      document.write ("<br>")
+      document.write ("Notas médias: " + media)
+      document.write ("<br>")
+      document.write ("A maior média foi: " + notaMaxima)
+      document.write ("<br>")
+      document.write ("A menor média foi: " + notaMinima)
+      document.write ("<br>")
+
+        
+      
      
     
     </script>
