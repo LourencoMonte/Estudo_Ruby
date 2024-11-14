@@ -1,0 +1,40 @@
+        ANATOMIA DAS CLASSES
+    Estrutura
+        public class MinhaClass{
+            Seu código aqui }
+    
+        void: Significa que vai retornar nada
+    
+            Parâmetros
+        ex: int somar (int numeroUm, int numero2)
+        ex: String formatarCep (long cep) 
+        -Todo arquivo .java deve começar com letra maiscula
+        -Nome da classe do arquivo deve ter o mesmo nome do arquivo
+        -Toda variável deve ser escrita com letra minuscula. Se a palavra for composta o inicio da segunda palavra deve ser Maiuscula(camelCase)
+            ex: int ano, anoFabricacao; 
+        -Variáveis escritas totalmente em MAIUSCULAS nunca devem sofrer alterações
+            ex: final string BR = "Brasil";  == string BR = "Brasil";
+            ex: ANO_2000 = 2000;
+        
+        -Tópico 2 Aula 5 sobre pacotes, organização
+    
+ 
+
+        OPERADORES
++ soma, - subtração, * multiplicação, / divisão, % resto da divisão.
+    ex: resultado = v1 + v2
+
+        SAÍDA DE DADOS
+-setText: imprime saída em formato de string
+    ex: setText("Lourenço");
+para mostra resultado de outro tipo de dado exige conversão
+-(String.valueOf(variável));: converte variável para string 
+        também pode converter para Integer ou Double 
+    ex: txtfresultado.setText(String.valueOf(resultado));
+-requestFocus: tras o foco da entrada de dados "traço piscando".
+        ex: txtfvalor01.requestFocus();
+
+         
+
+
+       
