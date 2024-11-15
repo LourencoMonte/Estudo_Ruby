@@ -1,0 +1,7 @@
+ OPERADORES
++ soma, - subtração, * multiplicação, / divisão, % resto da divisão.
+    ex: resultado = v1 + v2
+= : Atribuição de valores
++ no meio de Strings faz a concatenação das Strings
+    ex: String nome = "Linguagem" + "Java";
+    saída: LinguagemJava

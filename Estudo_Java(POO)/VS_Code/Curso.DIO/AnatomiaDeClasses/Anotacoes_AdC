@@ -18,11 +18,6 @@
         
         -Tópico 2 Aula 5 sobre pacotes, organização
     
- 
-
-        OPERADORES
-+ soma, - subtração, * multiplicação, / divisão, % resto da divisão.
-    ex: resultado = v1 + v2
 
         SAÍDA DE DADOS
 -setText: imprime saída em formato de string
