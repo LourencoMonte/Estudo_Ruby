@@ -284,12 +284,12 @@ turma1.adicionarAluno(alunoRegular1);
 turma1.adicionarAluno(alunoRegular2);
 turma1.adicionarAluno(alunoBolsista);
 
-Turma turma2 = new Turma();
+Turma turma2 = new Turma("B", "Programação Orientado a Objetos", "Paulo", new ArrayList<>());
 turma2.adicionarAluno(alunoRegular1);
 turma2.adicionarAluno(alunoRegular2);
 turma2.adicionarAluno(alunoBolsista);
 
-Turma turma3 = new Turma();
+Turma turma3 = new Turma("C", "Matemática", "Paulo", new ArrayList<>());
 turma3.adicionarAluno(alunoRegular1);
 turma3.adicionarAluno(alunoRegular2);
 turma3.adicionarAluno(alunoBolsista);
