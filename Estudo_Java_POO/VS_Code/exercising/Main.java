@@ -1,3 +1,6 @@
+import Pessoa;
+
+package exercising;
 public class Main {
     public static void main(String[] args) {
         // Criando uma instância da classe Pessoa

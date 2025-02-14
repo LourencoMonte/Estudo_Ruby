@@ -1,3 +1,4 @@
+package exercising;
 class Comodo {
     private String tipo;
 
