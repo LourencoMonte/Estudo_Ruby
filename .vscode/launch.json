@@ -5,18 +5,33 @@
     "version": "0.2.0",
     "configurations": [
         
+    
         {
-            "type": "rdbg",
-            "name": "Debug current file with rdbg",
+            "type": "java",
+            "name": "Current File",
             "request": "launch",
-            "script": "${file}",
-            "args": [],
-            "askParameters": true
+            "mainClass": "${file}"
         },
         {
-            "type": "rdbg",
-            "name": "Attach with rdbg",
-            "request": "attach"
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Estudo_e560bbee"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "estruturaDeDados.exercicio1.Main",
+            "projectName": "Estudo_e560bbee"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "exercising.Main",
+            "projectName": "Estudo_e560bbee"
         }
     ]
 }
