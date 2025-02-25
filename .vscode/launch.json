@@ -1,32 +1,31 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-      {
-          "name": "Debug Ruby Script",
-          "type": "rdbg",
-          "request": "launch",
-          "script": "${file}"
-      },
-      {
-          "name": "Debug RSpec",
-          "type": "rdbg",
-          "request": "launch",
-          "script": "${workspaceRoot}/bin/rspec",
-          "args": [
-              "${file}"
-          ]
-      },
-      {
-          "name": "Start Rails Server",
-          "type": "rdbg",
-          "request": "launch",
-          "script": "${workspaceRoot}/bin/rails",
-          "args": [
-              "server",
-              "-p",
-              "3000"
-          ]
-      }
-  ]
-}
-
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Ruby Script",
+            "type": "rdbg",
+            "request": "launch",
+            "script": "${file}"
+        },
+        {
+            "name": "Debug RSpec",
+            "type": "rdbg",
+            "request": "launch",
+            "script": "${workspaceRoot}/bin/rspec",
+            "args": [
+                "${file}"
+            ]
+        },
+        {
+            "name": "Start Rails Server",
+            "type": "rdbg",
+            "request": "launch",
+            "script": "${workspaceRoot}/bin/rails",
+            "args": [
+                "server",
+                "-p",
+                "3000"
+            ]
+        }
+    ]
+  }

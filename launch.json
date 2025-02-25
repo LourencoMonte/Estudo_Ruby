@@ -1,15 +1,26 @@
-// 20220103094842
-// https://raw.githubusercontent.com/desenvolvendo-me/linguagem_2021_ruby_ideal/release/v0.1/.vscode/launch.json
-
 {
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Start Rails server",
-        "type": "Ruby",
+        "name": "Debug Ruby Script",
+        "type": "rdbg",
         "request": "launch",
-        "cwd": "${workspaceRoot}",
-        "program": "${workspaceRoot}/bin/rails",
+        "script": "${file}"
+      },
+      {
+        "name": "Debug RSpec",
+        "type": "rdbg",
+        "request": "launch",
+        "script": "${workspaceRoot}/bin/rspec",
+        "args": [
+          "${file}"
+        ]
+      },
+      {
+        "name": "Start Rails Server",
+        "type": "rdbg",
+        "request": "launch",
+        "script": "${workspaceRoot}/bin/rails",
         "args": [
           "server",
           "-p",
@@ -17,7 +28,7 @@
         ]
       },
       {
-        "name": "Debug Rails server",
+        "name": "Debug Rails Server",
         "type": "Ruby",
         "request": "launch",
         "cwd": "${workspaceRoot}",
@@ -69,3 +80,4 @@
       }
     ]
   }
+  

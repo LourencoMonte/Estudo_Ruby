@@ -1,24 +1,11 @@
-.metadata/
-"5_Códigos_Com_Linguagem/"
-Estudo.JavaScript/Atribuicao_valor.js
-Estudo.JavaScript/Fundamentos/
-Estudo.JavaScript/calculadoraIMC.html
-Estudo.JavaScript/desafio1.js
-Estudo.JavaScript/glosario.html
-Estudo.JavaScript/imc_requisicao_dados.html
-Estudo.JavaScript/javaScript.html
-Estudo.JavaScript/javaScript_HTML/
-Estudo_Java(POO)/Eclipse/
-"Estudo_Java(POO)/NetBeans/Anotações/"
-Estudo_Java(POO)/NetBeans/Projeto Condicional/src/*.class
-Estudo_Java(POO)/NetBeans/Projeto Soma/src/*.class
-Estudo_Java(POO)/VS_Code/AfPOO/
-Estudo_Java(POO)/VS_Code/Curso.DIO/
-Estudo_Java(POO)/VS_Code/Pessoa.java
-Estudo_Java(POO)/VS_Code/Programa simples/ProgramaSimples.java
-Programacao_Orientada_a_Objetos/
-easy_ruby_problems/
-eclipse/
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
 
-5_Códigos_Com_Linguagem/
-Estudo_Java(POO)/NetBeans/Anotações/
+# rspec failure tracking
+.rspec_status
