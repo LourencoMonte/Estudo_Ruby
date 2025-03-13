@@ -25,3 +25,4 @@ loop do
     puts num
     break if num >= 10
 end
+
