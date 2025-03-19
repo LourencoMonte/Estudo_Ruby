@@ -1,0 +1,5 @@
+File.open("nome_arquivo.txt", "r") do |arquivo| -> Para ler arquivo
+File.open("nome_arquivo.txt", "w") do |arquivo| -> Para sobrescrever arquivo
+File.open("nome_arquivo.txt", "a") do |arquivo| -> Para adicionar conteúdo sem sobrescrever
+
+
