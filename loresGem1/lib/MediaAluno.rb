@@ -16,13 +16,13 @@ def media_aluno(notas)
 	notas.sum / notas.size
 end
 
-nome = nome_aluno
-notas = nota_aluno
-media = media_aluno(notas)
+#nome = nome_aluno
+#notas = nota_aluno
+#media = media_aluno(notas)
+#puts "As notas do aluno #{nome} são: #{notas} e a média é: #{media}"
 
-puts "As notas do aluno #{nome} são: #{notas} e a média é: #{media}"
-
-=begin algoritmo "Media Aluno" -- Portugol --
+=begin	-----------------------------------------------------------------------
+ algoritmo "Media Aluno" -- Portugol --
 
 var
 
