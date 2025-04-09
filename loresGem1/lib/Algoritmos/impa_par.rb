@@ -1,10 +1,12 @@
-puts 'Digite um número'
-number = gets.chomp.to_i
+def impa_par
+      puts 'Digite um número'
+      number = gets.chomp.to_i
 
-if number.odd?
-      puts "O número #{number} é impar"
-else 
-      puts "O número #{number} é par"
+      if number.odd?
+            puts "O número #{number} é impar"
+      else 
+            puts "O número #{number} é par"
+      end
 end
 
 =begin
