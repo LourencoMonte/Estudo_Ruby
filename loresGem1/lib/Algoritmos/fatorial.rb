@@ -3,11 +3,12 @@ def fatorial(n)
    n * fatorial(n - 1)
 end
 
+=begin
 puts "Digite um número"
 number = gets.chomp.to_i
 puts "O fatorial de #{number} é #{fatorial(number)}"
 
-=begin
+
 Algoritmo "Enquanto Faça Fatorial"
 //Este algoritmo calcula o fatorial do número digitado.
 
