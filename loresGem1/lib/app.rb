@@ -1,0 +1,3 @@
+require_relative 'Algoritmos/impares_pares_ate'
+
+exibir_pares_ou_impares
