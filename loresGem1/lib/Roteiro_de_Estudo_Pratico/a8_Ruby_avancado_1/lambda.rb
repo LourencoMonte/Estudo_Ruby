@@ -13,6 +13,7 @@ first_lambda.call(names)
 =end
 
 
+=begin
 my_lambda = lambda do |numbers|
     index = 0
     puts 'Número atual + Próximo número'
@@ -26,3 +27,14 @@ end
 
 numbers = [1, 2, 3, 4]
 my_lambda.call(numbers)
+=end
+
+def foo(first_lambda, second_lambda)
+    first_lambda.call
+    second_lambda.call
+end
+
+first_lambda = lambda {puts "my first lambda"}
+second_lambda = lambda {puts "my second lambda"}
+
+foo(first_lambda, second_lambda)
